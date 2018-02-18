@@ -92,7 +92,7 @@ public class Registrationpage extends Testbase {
 	WebElement submit;
 
 	public Registrationpage(WebDriver driver) {
-		this.driver=driver;
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
 
@@ -101,18 +101,18 @@ public class Registrationpage extends Testbase {
 			String email, String password) {
 
 		signinbutton.click();
-logger.info("click on signin button");
+		logger.info("click on signin button");
 		// this.emailid.sendKeys(emailid);
 
-		
 		@SuppressWarnings("resource")
-		Scanner raja = new Scanner(System.in);   // using scanner, typing the email id dynamically
+		Scanner raja = new Scanner(System.in); // using scanner, typing the
+												// email id dynamically
 
 		System.out.println("enter the id");
 		String nwe = raja.nextLine();
 		emailid.sendKeys(nwe);
 		logger.info("using scanner class dynamically giving the input");
-		
+
 		submitbutton.click();
 		gender.click();
 		this.firstname.sendKeys(firstname);
@@ -150,7 +150,7 @@ logger.info("click on signin button");
 		this.other.sendKeys(other);
 		mobile.sendKeys(mobilen);
 		alias.sendKeys(aliasn);
-		 submit.click();
+		submit.click();
 
 	}
 

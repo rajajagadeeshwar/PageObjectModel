@@ -20,7 +20,7 @@ public class Testregistration extends Testbase {
 	public void checklogin(){
 		registrationpage= new Registrationpage(driver);
 
-		registrationpage.login1("HYD", "IND", "SOMETHINGS"," 514707", "NOTHING", "AP", "5110"," ruesherbrooke", "nocompany"," jacky"," nacky"," lacky", "makki", "rajajagadeesh@gmail.com", "nenchepanu");
+		registrationpage.login1("HYD", "IND", "SOMETHINGS"," 514707", "NOTHING", "AP", "5110"," ruesherbrooke", "nocompany"," jacky"," nacky"," lacky", "makki", "eshu@gmail.com", "nenchepanu");
 		
 
 }

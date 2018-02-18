@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11693" started-at="2018-02-18T01:11:26Z" finished-at="2018-02-18T01:11:38Z">
+  <suite name="Default suite" duration-ms="951" started-at="2018-02-18T03:38:49Z" finished-at="2018-02-18T03:38:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11693" started-at="2018-02-18T01:11:26Z" finished-at="2018-02-18T01:11:38Z">
-      <class name="homepage.Testlogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:homepage.Testlogin@490ab905]" name="setup" is-config="true" duration-ms="8920" started-at="2018-02-17T20:11:26Z" finished-at="2018-02-17T20:11:35Z">
+    <test name="Default test" duration-ms="951" started-at="2018-02-18T03:38:49Z" finished-at="2018-02-18T03:38:50Z">
+      <class name="excelprac.Testdata3">
+        <test-method status="PASS" signature="testing()[pri:0, instance:excelprac.Testdata3@3532ec19]" name="testing" duration-ms="932" started-at="2018-02-17T22:38:49Z" finished-at="2018-02-17T22:38:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checklogin()[pri:0, instance:homepage.Testlogin@490ab905]" name="checklogin" duration-ms="2438" started-at="2018-02-17T20:11:35Z" finished-at="2018-02-17T20:11:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checklogin -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:homepage.Testlogin@490ab905]" name="endtest" is-config="true" duration-ms="312" started-at="2018-02-17T20:11:38Z" finished-at="2018-02-17T20:11:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-      </class> <!-- homepage.Testlogin -->
+        </test-method> <!-- testing -->
+      </class> <!-- excelprac.Testdata3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
